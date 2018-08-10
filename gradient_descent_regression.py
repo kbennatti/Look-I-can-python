@@ -1,5 +1,6 @@
 # assigned task: create my own gradient descent linear regression model instead of using a python package
-# note: the commented steps are a simplified version of the instructions given by my professor
+# we were instructed to avoid using built-in functions and packages other than those imported below
+# the commented steps are a simplified version of the instructions given by my professor
 # all code is my own
 from sklearn.datasets import load_boston
 import math as math
@@ -13,7 +14,7 @@ colInData = data.shape[1]
 
 #step 1: normalize features
 
-#1a: Figure out max and min values and add them to a dictionary
+#1a: Figure out max and min values and add them to a dictionary without using built-in functions
 dicMin = {}
 dicMax = {}
 t=0
